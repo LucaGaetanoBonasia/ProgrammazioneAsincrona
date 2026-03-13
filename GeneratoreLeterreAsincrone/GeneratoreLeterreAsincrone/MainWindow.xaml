@@ -8,11 +8,11 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <Button x:Name="btnEstrai" Content="ESTRAI LETTERA" HorizontalAlignment="Left" Height="103" Margin="28,282,0,0" VerticalAlignment="Top" Width="296" Click="btnEstrai_Click"/>
-        <TextBox x:Name="tbxParola" HorizontalAlignment="Left" Height="25" Margin="44,217,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="103"/>
+        <TextBox x:Name="tbxParola" HorizontalAlignment="Left" Height="25" Margin="34,208,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="104"/>
         <Label Content="LUNGHEZZA PAROLA:" HorizontalAlignment="Left" Height="24" Margin="30,175,0,0" VerticalAlignment="Top" Width="132"/>
         <ListBox x:Name="lbxParole" HorizontalAlignment="Left" Height="373" Margin="451,34,0,0" VerticalAlignment="Top" Width="322" d:ItemsSource="{d:SampleData ItemCount=5}"/>
-        <TextBox x:Name="tbxRisultato" HorizontalAlignment="Left" Height="25" Margin="203,217,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="103"/>
         <Label x:Name="lblLettere" Content="" HorizontalAlignment="Left" Height="105" Margin="53,34,0,0" VerticalAlignment="Top" Width="169"/>
+        <Button x:Name="btnLunghezza" Content="Inserisci lunghezza" HorizontalAlignment="Left" Height="31" Margin="34,238,0,0" VerticalAlignment="Top" Width="104" Click="btnLunghezza_Click"/>
 
     </Grid>
 </Window>
